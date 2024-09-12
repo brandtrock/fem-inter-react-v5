@@ -21,5 +21,5 @@ export interface PetAPIResponse {
 
 export interface BreedListAPIResponse {
   animal: Animal;
-  breed: string[];
+  breeds: string[];
 }
