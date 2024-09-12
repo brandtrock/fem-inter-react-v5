@@ -8,7 +8,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "format": "prettier --write \"src/**/*.{js,ts,jsx,tsx}\"",
-    "lint": "eslint \"src/**/*.{js,ts,jsx,tsx}\" --quiet"
+    "format:check": "prettier --check \"src/**/*.{js,ts,jsx,tsx}\"",
+    "lint": "eslint \"src/**/*.{js,ts,jsx,tsx}\" --quiet",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [],
   "author": "Brian Holt",
